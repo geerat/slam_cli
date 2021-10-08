@@ -1,11 +1,13 @@
-const x = {
-    tableConfig: {
+import { Configuration } from './types';
+
+export const configuration: Configuration = {
+    table: {
         minX: 0,
-        maxX: 0,
+        maxX: 6,
         minY: 0,
-        maxY: 0,
+        maxY: 6,
     },
-    directionConfig: {
+    map: {
         east: {
             right: 'south',
             left: 'north',
