@@ -3,9 +3,9 @@ import { Configuration } from './types';
 export const configuration: Configuration = {
     table: {
         minX: 0,
-        maxX: 6,
+        maxX: 5,
         minY: 0,
-        maxY: 6,
+        maxY: 5,
     },
     map: {
         east: {

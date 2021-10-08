@@ -76,7 +76,7 @@ export class Slam {
             );
             return;
         }
-        console.log(`${this.x},${this.y},${this.direction}`);
+        console.log(`${this.x},${this.y},${this.direction.toUpperCase()}`);
     };
 
     left = () => {
