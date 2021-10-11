@@ -23,14 +23,14 @@ export const configuration: Configuration = {
         west: {
             right: 'north',
             left: 'south',
-            dx: 0,
-            dy: 1,
+            dx: -1,
+            dy: 0,
         },
         north: {
             right: 'east',
             left: 'west',
-            dx: -1,
-            dy: 0,
+            dx: 0,
+            dy: 1,
         },
     },
 };
